@@ -1,0 +1,32 @@
+# =========================================================
+# dbt – credentials & user-specific files
+# =========================================================
+profiles.yml
+.user.yml
+
+# Python virtual environment
+dbt-env/
+venv/
+.env/
+airflow-env/
+__pycache__/
+*.pyc
+*env/
+
+
+# dbt
+dbt_fabric/target/
+dbt_fabric/logs/
+dbt_fabric/dbt_packages/
+
+# OS junk
+__pycache__/
+*.pyc
+.DS_Store
+
+# Airflow
+airflow/logs/
+airflow/.dbt/
+
+# OS
+.DS_Store
