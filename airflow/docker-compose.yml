@@ -6,9 +6,9 @@ x-airflow-common:
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
     AIRFLOW__CORE__FERNET_KEY: ""
-    FABRIC_TENANT_ID: "ea8bd1fd-ac34-4ae2-b421-6cfa2fcff243"
-    FABRIC_CLIENT_ID: "662d28f3-871a-422d-9b9b-d6e26fe43e62"
-    FABRIC_CLIENT_SECRET: "UfR8Q~QsBLCJDpDwKY7_kuenkjgZGrJvHV0hLb8l"
+    FABRIC_TENANT_ID: "xxx"
+    FABRIC_CLIENT_ID: "xxx"
+    FABRIC_CLIENT_SECRET: "xxx"
     
   volumes:
     - ./dags:/opt/airflow/dags
