@@ -1,0 +1,12 @@
+selectors:
+  - name: bronze
+    definition:
+      path: models/1_bronze
+
+  - name: silver
+    definition:
+      path: models/2_silver
+
+  - name: gold
+    definition:
+      path: models/3_gold

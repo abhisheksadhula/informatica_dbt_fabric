@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: fabric
+    database: main
+    schema: dbo
+    tables:
+      - name: customers
+        description: "Raw customers table loaded into Fabric"
+        columns:
+          - name: id
+            tests:
+              - not_null
+              - unique
+
+      - name: orders
+        description: "Raw orders table loaded into Fabric"
+        # loaded_at_field: ORDER_DATE
+
+        # freshness:
+        #   warn_after:
+        #     count: 1
+        #     period: day
+        #   error_after:
+        #     count: 2
+        #     period: day
