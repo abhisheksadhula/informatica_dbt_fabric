@@ -22,6 +22,9 @@ USER airflow
 # Install dbt
 RUN pip install --no-cache-dir \
     dbt-core==1.11.2 \
-    dbt-fabric==1.9.8
+    dbt-fabric==1.9.8 \
+    requests \
+    msal
+
 
 ENV PATH="/home/airflow/.local/bin:${PATH}"
