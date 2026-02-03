@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: oracle
+    schema: dbt_user
+    tables:
+      - name: customers
+        description: "Raw customers table loaded into Oracle"
